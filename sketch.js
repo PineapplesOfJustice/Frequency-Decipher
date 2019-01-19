@@ -249,7 +249,6 @@ function DragObject(x, y, radius, fillColor){
 	this.draggable = true;
 }
 
-
 function playNote(note, type, volume, duration) {
   var osc = new p5.Oscillator()
   osc.setType(type)
